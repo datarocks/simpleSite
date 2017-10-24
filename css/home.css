@@ -1,0 +1,69 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+img {
+	width: 100%;
+}
+
+body {
+	font-size: 16px;
+	font-size: 2vmax;
+
+}
+
+@media (max-width: 480px) {
+    p {
+        font-size: 16px;
+    }
+}
+
+
+.banner {
+	width: 100%;
+	color: white;
+	height: 25vh;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+	vertical-align: middle;
+	line-height: 25vh; 
+    position: relative;
+
+    font-size: 30px; 
+    font-size: 4vmax;
+
+    background: -webkit-linear-gradient(left, rgb(102, 179, 255), rgb(255, 255, 128)); /* Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, rgb(102, 179, 255), rgb(255, 255, 128)); /* Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, rgb(102, 179, 255), rgb(255, 255, 128)); /* Firefox 3.6 to 15 */
+    background: linear-gradient(left, rgb(102, 179, 255), rgb(255, 255, 128)); /* Standard syntax (must be last) */
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 10% 80% 10%;
+	grid-template-rows: auto;
+	grid-gap: 1rem;
+	background-color:  white;
+
+}
+
+.periphery {
+	background-color: white;
+}
+
+.content {
+	/*color: black;*/
+	/*background-color:  white;*/
+}
+
+.footer {
+	background-color: #242729;
+	color: #bbc0c4;
+}
+
+.footer-element {
+	text-align: center;
+	display: block;
+	color: #bbc0c4;
+}
